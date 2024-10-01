@@ -1,0 +1,19 @@
+{
+    "tailwind-fold.supportedLanguages": [
+        "liquid",
+        "html",
+        "typescriptreact",
+        "javascriptreact",
+        "typescript",
+        "javascript",
+        "vue-html",
+        "vue",
+        "php",
+        "markdown",
+        "coffeescript",
+        "svelte",
+        "astro",
+        "erb"
+    ],
+    "tailwind-fold.foldedText": "class=\"...\""
+}
