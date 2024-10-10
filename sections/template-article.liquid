@@ -87,7 +87,7 @@
               </div>
               <ul class="px-4 mb-3 ml-7 list-decimal">
                 {% for error in form.errors %}
-                  <li>{{ form.errors.message[error] }}</li>
+                  <li>{{ form.errors.messages[error] }}</li>
                 {% endfor %}
               </ul>
             </div>
