@@ -12,6 +12,11 @@
     "template": {
       "type": "template-article",
       "blocks": {
+        "thumbnail": {
+          "type": "featured_image",
+          "settings": {
+          }
+        },
         "title": {
           "type": "article_title",
           "settings": {
@@ -27,11 +32,6 @@
           "settings": {
           }
         },
-        "thumbnail": {
-          "type": "featured_image",
-          "settings": {
-          }
-        },
         "content": {
           "type": "article_content",
           "settings": {
@@ -39,13 +39,15 @@
         }
       },
       "block_order": [
+        "thumbnail",
         "title",
         "author",
         "published_date",
-        "thumbnail",
         "content"
       ],
       "settings": {
+        "enable_author": true,
+        "enable_published_date": true
       }
     }
   },
