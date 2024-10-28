@@ -2,8 +2,9 @@
   {% for article in blog.articles %}
     <div>
       {% if article.image %}
-        <img src="{{ article.image |  image_url: 'medium' }}" alt="">
+        <img src="{{ article.image |  image_url: 'medium' }}" alt="{{ article.image.alt }}">
       {% endif %}
     </div>
   {% endfor %}
 {% endpaginate %}
+<h1>Hello world</h1>
